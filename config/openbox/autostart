@@ -1,0 +1,10 @@
+nitrogen --restore &
+tint2 & 
+compton &
+sleep 2
+dunst > /dev/null 2>&1 &
+rofi -show run &
+conky -c ~/.conky/Rock/Hermoso_Rc &
+sleep 2
+screendimmer &
+# bash ~/.pscript/ufetch.sh
