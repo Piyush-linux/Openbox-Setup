@@ -33,6 +33,7 @@ sudo pacman -S otf-hermit
 
 ## Keybinding
 
+```
 __window__
 mod + Q : quit
 mod + -> / mod + <- / ^ : window shift
@@ -50,6 +51,7 @@ mod + D : Desktop
 mod + B : Browser
 mod + O : Screen_Shot 
 mod + F : File Manager
+```
 
 ## Applcations
 - ScrrenBrightness : screendimmer
@@ -60,6 +62,8 @@ mod + F : File Manager
 - browser : chromium,min,firefox
 - Doc Viewer : zathura 
 - screenshot : scrot
+- Mail : MailSpring
+- Feed : NewFlash
 
 ```sh
 sudo pacman -S kitty sxiv thunar chromium min firefox scrot zathura-pdf-poppler
